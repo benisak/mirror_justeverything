@@ -217,7 +217,7 @@ function NavbarContent({
               </Fragment>
             ))}
 
-           {/* Dropdown for More Categories */}
+           {/* Dropdown for More  Categories */}
             <div
               className="relative inline-block text-center"
               ref={dropdownRef}>
