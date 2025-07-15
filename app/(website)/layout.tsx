@@ -30,8 +30,8 @@ async function sharedMetaData(params: any) {
     title: {
       default:
         settings?.title ||
-        "JustEverything - Blog dedicated to captivating and diverse topics, from everyday tips to intriguing insights across lifestyle, hobbies, and more. Explore something new and fascinating every day!",
-      template: "%s | JustEverything - Blog dedicated to captivating and diverse topics, from everyday tips to intriguing insights across lifestyle, hobbies, and more. Explore something new and fascinating every day!"
+        "Onlyeverything - Blog dedicated to captivating and diverse topics, from everyday tips to intriguing insights across lifestyle, hobbies, and more. Explore something new and fascinating every day!",
+      template: "%s | Onlyeverything - Blog dedicated to captivating and diverse topics, from everyday tips to intriguing insights across lifestyle, hobbies, and more. Explore something new and fascinating every day!"
     },
     description:
       settings?.description ||
@@ -62,12 +62,12 @@ async function sharedMetaData(params: any) {
 }
 
 
-const siteUrl = "https://www.justeverything.net/"; // Ensure this is correct
+const siteUrl = "https://www.onlyeverything.net/"; // Ensure this is correct
 
 export async function generateMetadata({ params }: { params: any }) {
   const settings = await getSettings();
 
-  const siteTitle = "JustEverything - Your Curiosity Hub";
+  const siteTitle = "Onlyeverything - Your Curiosity Hub";
   const siteDescription =
     "Blog dedicated to captivating and diverse topics, from everyday tips to intriguing insights across lifestyle, hobbies, and more. Explore something new and fascinating every day!";
     
@@ -157,7 +157,7 @@ export default async function Layout({
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-PVMMHW9P');`
+            })(window,document,'script','dataLayer','GTM-MTJ5X4SK');`
           }}
         />
         {/* End Google Tag Manager */}
@@ -169,7 +169,7 @@ export default async function Layout({
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe 
-            src="https://www.googletagmanager.com/ns.html?id=GTM-PVMMHW9P"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MTJ5X4SK"
             height="0" 
             width="0" 
             style={{ display: 'none', visibility: 'hidden' }}
