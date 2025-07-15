@@ -46,7 +46,7 @@ function NavbarContent({
     // Check if we are on the `/search` page and if any query parameter exists
     const hasQuery = searchParams?.get("q"); // Get the query parameter `q`
 
-    // Hide the search bar if on `/search` and `q` exists (even if it's empty)
+    // Hide the search bar if on `/search` and `q` exists (even if  it's empty)
     if (pathname === "/search" && hasQuery !== null) {
       setHideSearchBar(true); // Hide search bar
     } else {
@@ -217,7 +217,7 @@ function NavbarContent({
               </Fragment>
             ))}
 
-           {/* Dropdown for More Categories */}
+           {/* Dropdown for More  Categories */}
             <div
               className="relative inline-block text-center"
               ref={dropdownRef}>
