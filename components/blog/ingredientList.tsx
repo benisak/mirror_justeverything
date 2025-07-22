@@ -184,7 +184,7 @@ const IngredientList: React.FC<IngredientListProps> = ({ ingredients, modal_titl
       {/* Desktop Wishlist Button */}
       <a
         href="#"
-        className="bg-[#F31C00] border border-[#F31C00] text-white mt-4 hidden flex-[1_0_0] items-center justify-center gap-2 rounded-lg p-4 text-base font-semibold hover:bg-white hover:text-[#F31C00] hover:border-[#F31C00]
+        className="bg-[#00A3C9] border border-[#00A3C9] text-white mt-4 hidden flex-[1_0_0] items-center justify-center gap-2 rounded-lg p-4 text-base font-semibold hover:bg-white hover:text-[#00A3C9] hover:border-[#00A3C9]
                         transition-colors duration-300 ease-in-out sm:flex">
         Get this wishlist
       </a>
@@ -209,7 +209,7 @@ const IngredientList: React.FC<IngredientListProps> = ({ ingredients, modal_titl
               flex: "1 1 0",
               height: 51,
               padding: 16,
-              background: "#F31C00",
+              background: "#00A3C9",
               borderRadius: 8,
               justifyContent: "center",
               alignItems: "center",

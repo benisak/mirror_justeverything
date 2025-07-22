@@ -34,7 +34,7 @@ export default function BannerRelatedRecipes(props) {
         {/* Desktop Version */}
         <Link
           href="/archive"
-          className="hidden md:inline-flex items-center justify-center gap-[4px] rounded-[8px] border border-[#F31C00] bg-[#F6F6F6] px-[16px] py-[12px] text-sm font-medium text-[#F31C00] hover:bg-gray-50 md:mt-1"
+          className="hidden md:inline-flex items-center justify-center gap-[4px] rounded-[8px] border border-[#00A3C9] bg-[#F6F6F6] px-[16px] py-[12px] text-sm font-medium text-[#00A3C9] hover:bg-gray-50 md:mt-1"
         >
           See all content
         </Link>
@@ -145,7 +145,7 @@ export default function BannerRelatedRecipes(props) {
         {/* Desktop  Version */}
         <Link
           href="/archive"
-          className="hidden md:inline-flex items-center justify-center gap-[4px] rounded-[8px] border border-[#F31C00] bg-[#F6F6F6] px-[16px] py-[12px] text-sm font-medium text-[#F31C00] hover:bg-gray-50 md:mt-8"
+          className="hidden md:inline-flex items-center justify-center gap-[4px] rounded-[8px] border border-[#00A3C9] bg-[#F6F6F6] px-[16px] py-[12px] text-sm font-medium text-[#00A3C9] hover:bg-gray-50 md:mt-8"
         >
           See all content
         </Link>

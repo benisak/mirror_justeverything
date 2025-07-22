@@ -206,7 +206,7 @@ function NavbarContent({
               <Fragment key={`${item.label}${index}`}>
                 <Link
                   href={item.href}
-                  className="text-sm text-black hover:text-[#F31C00] active:text-[#F31C00]"
+                  className="text-sm text-black hover:text-[#00A3C9] active:text-[#00A3C9]"
                   style={{
                     fontSize: "14px",
                     fontStyle: "normal",
@@ -222,7 +222,7 @@ function NavbarContent({
               className="relative inline-block text-center"
               ref={dropdownRef}>
               <button
-                className="inline-flex w-full justify-center bg-white px-0 py-2 text-sm text-black hover:text-[#F31C00] active:text-[#F31C00] focus:outline-none"
+                className="inline-flex w-full justify-center bg-white px-0 py-2 text-sm text-black hover:text-[#00A3C9] active:text-[#00A3C9] focus:outline-none"
                 style={{
                   fontSize: "14px",
                   fontStyle: "normal",
@@ -260,7 +260,7 @@ function NavbarContent({
                     <Link
                       key={`${item.label}${index}`}
                       href={item.href}
-                      className="block px-2 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#F31C00] active:text-[#F31C00]"
+                      className="block px-2 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#00A3C9] active:text-[#00A3C9]"
                       role="menuitem"
                       onClick={() => setIsDropdownOpen(false)}
                       style={{
@@ -288,7 +288,7 @@ function NavbarContent({
                   }}>
                   <input
                     type="text"
-                    className="w-56 px-4 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-[#F31C00]"
+                    className="w-56 px-4 py-2 text-sm focus:outline-none"
                     placeholder="Search"
                     value={searchQuery}
                     onChange={e => setSearchQuery(e.target.value)}

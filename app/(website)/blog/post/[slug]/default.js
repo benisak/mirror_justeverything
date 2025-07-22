@@ -115,7 +115,7 @@ export default function Post(props) {
             {/* Mobile   Version */}
             <Link
               href="/archive"
-              className="absolute left-1/2 inline-flex w-[calc(100%-32px)] -translate-x-1/2 transform items-center justify-center gap-[4px] rounded-[8px] border border-[#F31C00] bg-white px-4 py-[14px] text-sm font-medium text-[#F31C00] hover:bg-[#F31C00] hover:text-white hover:border-[#F31C00] transition-colors duration-300 ease-in-out md:hidden"
+              className="absolute left-1/2 inline-flex w-[calc(100%-32px)] -translate-x-1/2 transform items-center justify-center gap-[4px] rounded-[8px] border border-[#00A3C9] bg-white px-4 py-[14px] text-sm font-medium text-[#00A3C9] hover:bg-[#00A3C9] hover:text-white hover:border-[#00A3C9] transition-colors duration-300 ease-in-out md:hidden"
             >
               <div
                 style={{
@@ -165,7 +165,7 @@ export default function Post(props) {
                 {/* Subscribe Button */}
                 <button
                   
-                  className="bg-white border border-[#F31C00] hover:border-[#F31C00] text-[#F31C00] hover:bg-[#F31C00] hover:text-white transition-colors duration-300 ease-in-out h-[51px] w-[101px] break-words rounded-md text-[16px] font-semibold"
+                  className="bg-white border border-[#00A3C9] hover:border-[#00A3C9] text-[#00A3C9] hover:bg-[#00A3C9] hover:text-white transition-colors duration-300 ease-in-out h-[51px] w-[101px] break-words rounded-md text-[16px] font-semibold"
                 >
                   Suscribe
                 </button>
@@ -199,7 +199,7 @@ export default function Post(props) {
             className="h-[51px] flex-[219] rounded-xl border border-gray-400 bg-white px-4 text-base text-gray-500 focus:outline-none"
           />
           <button
-            className="bg-[#F31C00] border border-[#F31C00] hover:border-[#F31C00] text-white hover:bg-white hover:text-[#F31C00] transition-colors duration-300 ease-in-out h-[51px] flex-[101px] rounded-md text-[16px] font-semibold hover:opacity-90"
+            className="bg-[#00A3C9] border border-[#00A3C9] hover:border-[#00A3C9] text-white hover:bg-white hover:text-[#00A3C9] transition-colors duration-300 ease-in-out h-[51px] flex-[101px] rounded-md text-[16px] font-semibold hover:opacity-90"
           >
             Suscribe
           </button>
