@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Subscription = () => {
   return (
-    <div className="w-full bg-gray-100 flex justify-center md:p-4">
+    <div className="w-full bg-[#F7F7F7] flex justify-center md:p-4">
       {/* Outer container to control the width */}
       <div className="w-full max-w-7xl p-8 rounded-lg relative flex flex-col items-start md:flex-row justify-between md:ml-[180px]">
         
@@ -17,7 +17,7 @@ const Subscription = () => {
             fill="#fee2e2"
             className="absolute bottom-[-30px] left-[50%] transform -translate-x-1/2"
           >
-            <circle cx="89" cy="89" r="89" fill="#fee2e2" />
+            <circle cx="89" cy="89" r="89" fill="#E8F6FA" />
           </svg>
 
           {/* Image */}
@@ -51,14 +51,14 @@ const Subscription = () => {
             <input
               type="email"
               placeholder="Email"
-              className="px-4 py-2 border border-[#7D7D7D] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#F31C00] w-[85%] md:w-[400px]"
+              className="px-4 py-2 border border-[#7D7D7D] rounded-xl focus:outline-none focus:ring-1 focus:ring-[#00A3C9] w-[85%] md:w-[400px]"
             />
             <button
               type="submit"
-              className="bg-[#F31C00] border border-[#F31C00] text-white px-4 py-2 rounded-md w-[15%] min-w-[108px] md:w-[120px]
-                        hover:bg-white hover:text-[#F31C00] hover:border-[#F31C00] transition-colors duration-300 ease-in-out"
+              className="bg-[#00A3C9] border border-[#00A3C9] text-white px-4 py-2 rounded-md w-[15%] min-w-[108px] md:w-[120px]
+                        hover:bg-white hover:text-[#00A3C9] hover:border-[#00A3C9] transition-colors duration-300 ease-in-out"
             >
-              Subscribe
+              Suscribe
             </button>
           </div>
         </div>

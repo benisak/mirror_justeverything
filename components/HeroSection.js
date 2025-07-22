@@ -95,9 +95,9 @@ const HeroSection = () => {
       {/* Text Section */}
       <div className="w-full px-0 text-left md:px-1 md:pl-6 md:text-center">
         <h1 className="mb-[15px] break-words font-openSans md:mt-16">
-          <span className="block text-4xl font-bold text-[#000000] md:inline">
+          <span className="block text-4xl font-bold text-[#000] md:inline">
             <span className="inline-block whitespace-nowrap">
-              Discover <span className="text-[#F00]">everything</span>
+              Discover <span className="text-[#00A3C9]">everything</span>
               ,
             </span>
           </span>{" "}
@@ -110,7 +110,7 @@ const HeroSection = () => {
         <div
           className="block break-words text-left text-xl font-normal md:hidden md:px-[176px]"
           style={{ color: "var(--Black-500, #1F1F1F)" }}>
-          Welcome to justeverything, the place where curiosity meets
+          Welcome to onlyeverything, the place where curiosity meets
           limitless possibilities. Whether you&apos;re looking for
           insightful thoughts, trending topics, deep dives into
           everyday wonders, or just a bit of fun, we&apos;ve got you

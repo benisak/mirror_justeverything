@@ -46,16 +46,16 @@ export default async function Footer() {
           <div className="flex flex-col items-start text-white space-y-6 sm:w-full lg:w-auto lg:-ml-[160px] lg:mt-[25px]">
           <div className="lg:mt-0"> {/* Margin-top only for mobile */}
           <Image
-            src="/img/LogoJE_F.svg"
+            src="/img/LogoOE_F.svg"
             alt="Logo"
-            width={182}
-            height={36}
-            className="md:mt-[34px] mt-[16px] lg:mt-0 sm:w-[121px] sm:h-[24px] lg:w-[182px] lg:h-[36px]"
+            width={126}
+            height={44}
+            className="md:mt-[34px] mt-[16px] lg:mt-0"
           />
         </div>
             {/* Copyright for Desktop */}
             <div className="hidden sm:block text-[#FFF] text-sm font-normal leading-normal">
-            Justeverything 2025. All rights reserved
+            onlyeverything 2025. All rights reserved
             </div>
           </div>
           {/* Links Categories Column */}
@@ -97,12 +97,12 @@ export default async function Footer() {
               })}
             </div>
             {/* Number */}
-          <div className="text-[#FF4B4B] text-base font-semibold underline lg:self-end">
+          <div className="text-[#42C8E8] text-base font-semibold underline lg:self-end">
             1 345 657 876
           </div>
           {/* Email */}
-          <div className="text-[#FF4B4B] text-base font-semibold underline lg:self-end">
-            <a href="mailto:hola@myoldwine.com">hello@justeverything.com</a>
+          <div className="text-[#42C8E8] text-base font-semibold underline lg:self-end">
+            <a href="mailto:hola@myoldwine.com">hello@onlyeverything.com</a>
           </div>
 
           </div>
@@ -111,7 +111,7 @@ export default async function Footer() {
         {/* Copyright for Mobile Inside Container */}
         <div className="block sm:hidden mt-6 mb-[16px]">
           <div className="text-[#FFF] text-sm font-normal leading-normal">
-          Justeverything 2025. All rights reserved
+          onlyeverything 2025. All rights reserved
           </div>
         </div>
 

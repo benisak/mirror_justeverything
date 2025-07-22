@@ -35,7 +35,7 @@ export default async function HomeLifeStyle({}) {
           {featuredPost.length >= 6 && (
             <>
               <div className="mt-0 w-full">
-                <h2 className="font-openSans text-[30px] font-medium not-italic leading-normal">
+                <h2 className="text-[20px] md:text-[30px] font-medium not-italic leading-normal">
                   <strong>Recommended</strong>
                 </h2>
               </div>
@@ -88,7 +88,7 @@ export default async function HomeLifeStyle({}) {
         <div className="archive-link flex w-full justify-center px-0 sm:px-[30px] sm:py-[50px] md:py-0 pb-[56px] md:pb-[32px] pt-[24px]">
           <Link
             href="/archive"
-            className="bg-white border border-[#F31C00] hover:border-[#F31C00] text-[#F31C00] hover:bg-[#F31C00] hover:text-white transition-colors duration-300 ease-in-out relative inline-flex w-full max-w-[100%] items-center justify-center gap-1 rounded-md px-4 py-3 text-center text-sm font-medium focus:z-20 disabled:pointer-events-none disabled:opacity-40 md:w-auto"
+            className="bg-white border border-[#00A3C9] hover:border-[#00A3C9] text-[#00A3C9] hover:bg-[#00A3C9] hover:text-white transition-colors duration-300 ease-in-out relative inline-flex w-full max-w-[100%] items-center justify-center gap-1 rounded-md px-4 py-3 text-center text-sm font-medium focus:z-20 disabled:pointer-events-none disabled:opacity-40 md:w-auto"
             style={{
               borderRadius: "8px",
               fontSize: "16px",

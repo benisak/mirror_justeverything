@@ -163,13 +163,13 @@ function NavbarContent({
           {/* Contact Section */}
           <div className="flex items-center space-x-2">
             <FaWhatsapp
-              style={{ color: "#1c1917" }}
-              className="text-xl"
+              style={{ color: "#1F1F1F" }}
+              className="text-xl "
             />
             <Link href="https://www.whatsapp.com">
               <span
-                style={{ color: "#1c1917" }}
-                className="cursor-pointer font-medium hover:underline">
+                style={{ color: "#1F1F1F" }}
+                className="cursor-pointer hover:underline text-base font-inter font-semibold leading-none">
                 Contact
               </span>
             </Link>
@@ -190,10 +190,10 @@ function NavbarContent({
           <Link href="/" passHref>
             <div className="flex cursor-pointer items-center">
               <Image
-                src="/img/logoJE_header.svg"
+                src="/img/logoOE_header.svg"
                 alt="Logo"
-                width={182}
-                height={36}
+                width={126}
+                height={44}
                 priority={true}
               />
             </div>
@@ -331,10 +331,10 @@ function NavbarContent({
           {/* Logo */}
           <Link href="/" passHref>
             <Image
-              src="/img/logoJE_header.svg"
+              src="/img/logoOE_mobile.svg"
               alt="Logo"
-              width={121}
-              height={24}
+              width={91}
+              height={32}
               priority={true}
             />
           </Link>
@@ -446,10 +446,10 @@ function NavbarContent({
               {/* Logo */}
               <Link href="/" passHref>
                 <Image
-                  src="/img/logoJE_header.svg"
+                  src="/img/logoOE_mobile.svg"
                   alt="Logo"
-                  width={121}
-                  height={24}
+                  width={91}
+                  height={32}
                   priority={true}
                 />
               </Link>
@@ -686,7 +686,9 @@ function NavbarContent({
               <div className="flex items-center space-x-4">
                 {/* TikTok Icon */}
                 <a
-                  href="https://www.tiktok.com"
+
+                  
+              href="https://www.tiktok.com"
                   target="_blank"
                   rel="noopener noreferrer">
                   <FaTiktok
