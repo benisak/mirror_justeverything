@@ -48,7 +48,7 @@ export default function Post(props) {
             <div className="flex w-full flex-col items-center px-0 md:items-start md:px-0">
 
               {/* Title */}
-              <h1 className="font-openSans text-brand-primary w-full text-3xl font-semibold tracking-tight dark:text-white md:mt-4 lg:text-4xl lg:leading-snug">
+              <h1 className="font-noto text-brand-primary w-full text-3xl font-bold tracking-tight dark:text-white md:mt-4 lg:text-4xl lg:leading-snug">
                 {post.title}
               </h1>
 
@@ -58,7 +58,7 @@ export default function Post(props) {
                   <div>
                     <div className="flex items-center space-x-2 text-sm">
                       <time
-                        className="text-gray-500 dark:text-gray-400"
+                        className="text-[#4B4B4B] dark:text-gray-400"
                         dateTime={post?.publishedAt || post._createdAt}
                       >
                         {format(
@@ -69,8 +69,8 @@ export default function Post(props) {
                     </div>
                   </div>
                 </div>
-                
               </div>
+
 
               {/* Category */}
              <div className="mt-4 md:mt-2 flex w-full">
