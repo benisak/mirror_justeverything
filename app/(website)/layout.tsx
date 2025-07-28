@@ -122,8 +122,8 @@ export async function generateMetadata({ params }: { params: any }) {
       images: [ogImage]
     },
     icons: {
-      icon: "/img/FaviconJE.png",
-      apple: "/img/FaviconJE.png"
+      icon: "/img/FaviconOE.svg",
+      apple: "/img/FaviconOE.svg"
     }
   };
 }
@@ -162,8 +162,8 @@ export default async function Layout({
         />
         {/* End Google Tag Manager */}
         {/* Custom favicon links */}
-        <link rel="icon" type="image/png" sizes="32x32" href="/img/FaviconJE.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/img/FaviconJE.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/FaviconOE.svg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/FaviconOE.svg" />
       </head>
       <body className="text-gray-800 antialiased dark:bg-black dark:text-gray-400">
         {/* Google Tag Manager (noscript) */}
